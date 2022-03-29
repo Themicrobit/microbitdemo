@@ -12,6 +12,8 @@ basic.forever(function () {
             . # . # .
             # . # . #
             `)
+    } else if (input.isGesture(Gesture.LogoDown)) {
+    	
     } else if (false) {
     	
     } else if (false) {
