@@ -1,1 +1,37 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Y5fV7acuul01O7,VIOsY">磁北</variable><variable id="9:dKDQ}M15)*;d3O|xr1">text list</variable><variable id="1=YRN,PIi8DIoq4/uihq">位移次數</variable><variable id="Bl(1;t;2WIO^Z8ugjB!%">位移時間</variable></variables></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="}F9$_1l;C|jYNFEV72#O">wait</variable><variable id="FJh[-wd7w0:q3|YubEaN">light X</variable><variable id="^{lWA/}j!_]8wGh^_mF2">light Y</variable></variables><block type="device_show_leds" id="R4fnOR$DS/Q8,{{74pER" disabled="true" x="82" y="98"><field name="LEDS">`
+        . # # # . 
+        # . # . # 
+        # # # # # 
+        # # # # # 
+        # . # . #
+        `</field></block><block type="device_forever" id="6/rNY0WL_zepBXC*xd0=" x="-303" y="127"><statement name="HANDLER"><block type="controls_if" id="/`djb[6*XNM3633ZX`Jz"><value name="IF0"><shadow type="logic_boolean" id="V.sZs{4W1af6uJ$ZD-F2"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="vlRE!GpkAyAAdhsvQFI,"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="0#U+8=*Wynx{~*Oex7[c"><field name="NUM">0</field></shadow><block type="variables_get" id=":**C#]Q{Q+,yEBq!M=fd"><field name="VAR" id="}F9$_1l;C|jYNFEV72#O">wait</field></block></value><value name="B"><shadow type="math_number" id="]l1hN:!NBg4NE*Y9woVs"><field name="NUM">0</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="ukU3W7ZBb[e;*Rq)~Y?R"><field name="LEDS">`
+        # . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="`YG5r/P3:{aLm*p=gGhr"><field name="LEDS">`
+        . # . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="})Mk1ebHWNYWPl$Jj6oB"><field name="LEDS">`
+        . . # . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="#M3*^H:%}OynByjS+X9T"><field name="LEDS">`
+        . . . # . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="+($Y,3%K?(xx6L2(!cOl"><field name="LEDS">`
+        . . . . # 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></next></block></statement></block></statement></block><block type="basic_show_icon" id=";w3z?zPn2J1bnJ=Ey^;4" disabled="true" x="552" y="411"><field name="i">IconNames.Ghost</field></block><block type="variables_change" id="p0{8[Uch;:KG.w@[/l$/" disabled="true" x="136" y="443"><field name="VAR" id="}F9$_1l;C|jYNFEV72#O">wait</field><value name="VALUE"><shadow type="math_number" id="N%}]CeaXr^64(9+EYSF3" disabled="true"><field name="NUM">-1</field></shadow></value></block><block type="variables_change" id="Lwy=YX=imLEWHHpx|DR[" disabled="true" x="117" y="597"><field name="VAR" id="^{lWA/}j!_]8wGh^_mF2">light Y</field><value name="VALUE"><shadow type="math_number" id="*uPoz|*LtAP:fu?G;C`D" disabled="true"><field name="NUM">1</field></shadow></value></block></xml>
